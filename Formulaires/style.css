@@ -1,0 +1,101 @@
+body {
+
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding:20px;
+   
+}
+h1 {
+
+    text-align: center;
+    margin-left: 50px;
+}
+h2 {
+
+    text-align: center;
+}
+p{
+
+    font-size: 22px;
+    text-align: center;
+}
+.container {
+
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(231, 237, 237);
+ 
+  
+}
+.calculatrice {
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-top: 10px;
+margin-left: 50px;
+margin-right: 50px;
+background-color: blanchedalmond;
+border: 3px solid #4CAF50;
+border-radius: 2%;
+
+
+
+
+
+}
+.bouton {
+
+    margin-top: 20px;
+    margin-left: 30px;
+    
+    
+}
+.bouton :hover {
+    background-color: #45a049; /* Couleur de fond au survol */
+    color: yellow; 
+    
+}
+.bloc-nombre {
+
+    margin-top: 20px;
+    margin-left: 30px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px; /* Optionnel, pour arrondir les coins */
+}
+.operateur {
+
+    margin-left: 30px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px; /* Optionnel, pour arrondir les coins */
+
+    
+}
+
+.select {
+    width : 100%;
+}
+.resultats {
+
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+background-color:rgb(222, 203, 203);
+margin-top: 50px;
+padding:20px;
+
+}
+.container {
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+
+/*background-image: url("image-calcul.jpg");*/
+}
+.image {
+
+    margin-top: 50px;
+}
